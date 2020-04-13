@@ -1,4 +1,4 @@
-import logo from "../images/logo_emerson.png" // add school logo to images folder and import here
+import logo from "../images/logo_suffolk.png" // add school logo to images folder and import here
 
 export const applicationsLive = true // set to false if not currently accepting applications
 export const disabledLoanAppFormID = "69140c47-bb03-4a1b-b674-cc136fdea23d" // Hubspot ID for all disabled apply now lead captures
@@ -88,13 +88,13 @@ export const faq = {
 
 export const schoolLogo = logo // go to header.js if height needs adjustment
 
-export const schoolName = "Emerson College"
+export const schoolName = "Suffolk University"
 
 export const schoolURL = "https://www.SCHOOLWEBSITE.com/" // update with url of school's website
 
-export const skfURL = "https://emerson.skills.fund" // update with Skills Fund url
+export const skfURL = "https://suffolk.skills.fund" // update with Skills Fund url
 
-export const headline = "Learn to Code at Emerson College" // update headline as appropriate
+export const headline = "Learn to Code at Suffolk University" // update headline as appropriate
 
 export const leadContent = {
   header: "Your last step on the path toward changing your career",
@@ -113,7 +113,7 @@ export const threeStepCardText = {
   step3: `You'll be on your way to an exciting career in tech as part of ${schoolName}'s powerful network.`,
 }
 
-export const netlifyFormName = "emerson_contact"
+export const netlifyFormName = "suffolk_contact"
 
 export const GATracking = "UA-68312423-1"
 
@@ -193,89 +193,11 @@ export const programLoanInfo = [
       },
     ],
   },
-  {
-    name: "Clinical Trial Management",
-    url: "https://my.skills.fund/application?lenderCode=LENDERCODE3",
-    loanInfo: {
-      // match loanInfo in first metro below
-      maxLoanAmt: 9995,
-      loanTerm36: true,
-      loanTerm60: true,
-      "0": {
-        // interest-only
-        k: 6,
-        apr36: 11.59,
-        apr60: 12.84,
-      },
-      "1": {
-        apr36: 12.36,
-        apr60: 13.14,
-      },
-    },
-    defaultLoanType: "0", // leave at 0 for interest-only, set to 1 for immediate repayment
-    showMetros: false,
-    showLoanTypes: true,
-    locations: ["Metro A", "Metro B", "Metro C"],
-    metros: [
-      {
-        location: "Metro A",
-        loanInfo: {
-          maxLoanAmt: 9995,
-          loanTerm36: true,
-          loanTerm60: true,
-          "0": {
-            // interest-only
-            k: 6,
-            apr36: 11.59,
-            apr60: 12.84,
-          },
-          "1": {
-            apr36: 12.36,
-            apr60: 13.14,
-          },
-        },
-      },
-      {
-        location: "Metro B",
-        loanInfo: {
-          maxLoanAmt: 15545,
-          loanTerm36: true,
-          loanTerm60: true,
-          "0": {
-            k: 5,
-            apr36: 11.16,
-            apr60: 12.51,
-          },
-          "1": {
-            apr36: 11.25,
-            apr60: 12.55,
-          },
-        },
-      },
-      {
-        location: "Metro C",
-        loanInfo: {
-          maxLoanAmt: 20545,
-          loanTerm36: true,
-          loanTerm60: true,
-          "0": {
-            k: 5,
-            apr36: 11.16,
-            apr60: 12.51,
-          },
-          "1": {
-            apr36: 11.25,
-            apr60: 12.55,
-          },
-        },
-      },
-    ],
-  },
 ]
 
 // ***** BEGIN LOAN CALC TEXT INFO *****
 export const programMaxText =
-  "Choose the loan amount that works best for you. Borrow up to $10,000 in tuition for Emerson College's Data Science & Analytics program."
+  "Choose the loan amount that works best for you. Borrow up to $10,000 in tuition for Suffolk University's Data Science & Analytics program."
 
 export const paymentTable = {
   headers: ["Program", "Tuition", "Cost of Living", "Max Total"],
