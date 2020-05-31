@@ -89,10 +89,10 @@ export const previewText = {
       body:
         "Make low interest-only payments while you study and for three months after completing your program.",
     },
-    // {
-    //   heading: "Immediate Repayment",
-    //   body: "Start paying your loan back one month after your program begins.",
-    // },
+    {
+      heading: "Immediate Repayment",
+      body: "Start paying your loan back one month after your program begins.",
+    },
     // {
     //   heading: "36-Month Loan",
     //   // body:
